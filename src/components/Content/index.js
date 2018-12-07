@@ -15,7 +15,7 @@ const Content = () => (
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Audit} />
-          <Route path="/legislacao" component={Legislation} />
+          <Route path="/legislation" component={Legislation} />
         </Switch>
       </BrowserRouter>
     </Main>
