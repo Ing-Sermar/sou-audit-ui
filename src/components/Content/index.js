@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Jumbotron from '../Jumbotron';
 import Audit from '../../pages/Audit';
 import Legislation from '../../pages/Legislation';
+import Course from '../../pages/Course';
 
 import Main from './styles';
 import Avaliations from '../../assets/imgs/avaliacoes.svg';
@@ -16,6 +17,7 @@ const Content = () => (
         <Switch>
           <Route exact path="/" component={Audit} />
           <Route path="/legislation" component={Legislation} />
+          <Route path="/course" component={Course} />
         </Switch>
       </BrowserRouter>
     </Main>
