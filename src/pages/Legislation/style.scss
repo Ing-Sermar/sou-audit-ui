@@ -4,11 +4,23 @@
   }
   .row {
     margin: 20px;
-
+    .text-check {
+      font-size: 14px;
+      color: darkgray;
+    }
+    .form-check {
+      margin-right: 50px;
+    }
     p {
       font-size: 14px;
       font-family: 'Barlow Semi Condensed', sans-serif;
       margin: 10px auto 10px 10px;
     }
+  }
+}
+
+.row {
+  .float-right {
+    float: right;
   }
 }

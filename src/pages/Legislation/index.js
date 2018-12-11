@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.scss';
+import Buttonv from '../../components/button';
 
 const Legislation = () => {
   return (
@@ -59,6 +60,41 @@ const Legislation = () => {
             volutpat condimentum, diam dui ullamcorper nisi, sollicitudin
             eleifend nulla dui sodales dui.
           </p>
+        </div>
+        <div className="row">
+          <span className="text-check">
+            Estou ciente que estas são as leis atuais que se aplicam a esta
+            seleção
+          </span>
+        </div>
+        <div className="row">
+          <div class="form-check">
+            <input
+              type="checkbox"
+              className="form-check-input"
+              id="exampleCheck1"
+            />
+            <label className="form-check-label" htmlfor="exampleCheck1">
+              Sim
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              type="checkbox"
+              className="form-check-input"
+              id="exampleCheck2"
+            />
+            <label class="form-check-label" htmlfor="exampleCheck2">
+              Não
+            </label>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-sm-12 col-md-12">
+            <div className=" float-right">
+              <Buttonv />
+            </div>
+          </div>
         </div>
       </div>
     </div>
