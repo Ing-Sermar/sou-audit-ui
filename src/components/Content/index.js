@@ -5,6 +5,7 @@ import Jumbotron from '../Jumbotron';
 import Audit from '../../pages/Audit';
 import Legislation from '../../pages/Legislation';
 import Course from '../../pages/Course';
+import Retained from '../../pages/Retained';
 
 import Main from './styles';
 import Avaliations from '../../assets/imgs/avaliacoes.svg';
@@ -18,6 +19,7 @@ const Content = () => (
           <Route exact path="/" component={Audit} />
           <Route path="/legislation" component={Legislation} />
           <Route path="/course" component={Course} />
+          <Route path="/retained" component={Retained} />
         </Switch>
       </BrowserRouter>
     </Main>

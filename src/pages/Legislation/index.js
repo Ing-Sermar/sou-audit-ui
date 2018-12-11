@@ -68,7 +68,7 @@ const Legislation = () => {
           </span>
         </div>
         <div className="row">
-          <div class="form-check">
+          <div className="form-check">
             <input
               type="checkbox"
               className="form-check-input"
@@ -84,7 +84,7 @@ const Legislation = () => {
               className="form-check-input"
               id="exampleCheck2"
             />
-            <label class="form-check-label" htmlfor="exampleCheck2">
+            <label className="form-check-label" htmlfor="exampleCheck2">
               Não
             </label>
           </div>
