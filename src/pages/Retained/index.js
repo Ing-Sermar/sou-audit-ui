@@ -36,6 +36,8 @@ const Retained = () => {
                 <th scope="col">
                   Semestre / <br /> de Conclusão
                 </th>
+                <th scope="col">Motivo de Retenção</th>
+                <th scope="col">Dias Restantes</th>
                 <th scope="col" />
               </tr>
             </thead>
@@ -44,6 +46,8 @@ const Retained = () => {
                 <td>
                   <img className="circle" src={user} /> Engenharia de Produção
                 </td>
+                <td>xxxx</td>
+                <td>xxxx</td>
                 <td>xxxx</td>
                 <td>xxxx</td>
                 <td>xxxx</td>
@@ -63,16 +67,6 @@ const Retained = () => {
                 <td>xxxx</td>
                 <td>xxxx</td>
                 <td>xxxx</td>
-                <td>
-                  <BtnEmail />
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <img className="circle" src={user} /> Engenharia de Produção
-                </td>
-                <td>xxxx</td>
-                <td>xxxx</td>
                 <td>xxxx</td>
                 <td>xxxx</td>
                 <td>
@@ -87,6 +81,8 @@ const Retained = () => {
                 <td>xxxx</td>
                 <td>xxxx</td>
                 <td>xxxx</td>
+                <td>xxxx</td>
+                <td>xxxx</td>
                 <td>
                   <BtnEmail />
                 </td>
@@ -95,6 +91,22 @@ const Retained = () => {
                 <td>
                   <img className="circle" src={user} /> Engenharia de Produção
                 </td>
+                <td>xxxx</td>
+                <td>xxxx</td>
+                <td>xxxx</td>
+                <td>xxxx</td>
+                <td>xxxx</td>
+                <td>xxxx</td>
+                <td>
+                  <BtnEmail />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img className="circle" src={user} /> Engenharia de Produção
+                </td>
+                <td>xxxx</td>
+                <td>xxxx</td>
                 <td>xxxx</td>
                 <td>xxxx</td>
                 <td>xxxx</td>
