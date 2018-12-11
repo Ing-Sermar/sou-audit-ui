@@ -71,20 +71,20 @@ const Legislation = () => {
           <div class="form-check">
             <input
               type="checkbox"
-              class="form-check-input"
+              className="form-check-input"
               id="exampleCheck1"
             />
-            <label class="form-check-label" for="exampleCheck1">
+            <label className="form-check-label" htmlfor="exampleCheck1">
               Sim
             </label>
           </div>
           <div class="form-check">
             <input
               type="checkbox"
-              class="form-check-input"
+              className="form-check-input"
               id="exampleCheck2"
             />
-            <label class="form-check-label" for="exampleCheck2">
+            <label class="form-check-label" htmlfor="exampleCheck2">
               Não
             </label>
           </div>
