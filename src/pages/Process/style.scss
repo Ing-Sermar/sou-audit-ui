@@ -1,0 +1,14 @@
+.row {
+  padding-right: 0px solid !important;
+  .col-md-12 {
+    padding-right: 0px solid !important;
+  }
+  .float-right {
+    float: right;
+    .next {
+      border: 1px solid red;
+      color: red;
+      padding: 10px 15px;
+    }
+  }
+}

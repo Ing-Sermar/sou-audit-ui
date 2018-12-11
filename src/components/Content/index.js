@@ -7,6 +7,7 @@ import Legislation from '../../pages/Legislation';
 import Course from '../../pages/Course';
 import Retained from '../../pages/Retained';
 import Email from '../../pages/Email';
+import Process from '../../pages/Process';
 
 import Main from './styles';
 import Avaliations from '../../assets/imgs/avaliacoes.svg';
@@ -22,6 +23,7 @@ const Content = () => (
           <Route path="/course" component={Course} />
           <Route path="/retained" component={Retained} />
           <Route path="/mail" component={Email} />
+          <Route path="/process" component={Process} />
         </Switch>
       </BrowserRouter>
     </Main>
