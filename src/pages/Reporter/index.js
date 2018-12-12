@@ -1,4 +1,5 @@
 import React from 'react';
+import Back from '../../components/Back';
 import './style.scss';
 
 const Report = () => {
@@ -80,8 +81,13 @@ const Report = () => {
         <div className="formConteudo fontConteudo" />
         Resultado: RETIDO
         <div className="formConteudo" />
-        <a className="btn btn-danger botoes links">VOLTAR</a>
-        <a className="btn btn-danger links">FINALIZAR</a>
+        <div className="row">
+          <div className="col-sm-12 col-md-12">
+            <div className=" float-right">
+              <Back />
+            </div>
+          </div>
+        </div>
         <div className="formConteudo" />
       </div>
     </div>
