@@ -11,9 +11,12 @@ import Process from '../../pages/Process';
 import OperationalProcess from '../../pages/OperationalProcess';
 import CurseDate from '../../pages/CurseDate';
 import Reporter from '../../pages/Reporter';
+import Documents from '../../pages/Documents';
+import PesonalDate from '../../pages/PesonalDate';
 
 import Main from './styles';
 import Avaliations from '../../assets/imgs/avaliacoes.svg';
+import PersonalData from '../../pages/PesonalDate';
 
 const links = [
   {
@@ -76,6 +79,8 @@ const Content = () => (
                 />
                 <Route path={`/cursedate`} component={CurseDate} />
                 <Route path={`/reporter`} component={Reporter} />
+                <Route path={`/documents`} component={Documents} />
+                <Route path={`/pesonaldate`} component={PesonalDate} />
               </Fragment>
             )}
           />

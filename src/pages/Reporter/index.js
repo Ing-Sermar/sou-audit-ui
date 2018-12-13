@@ -1,5 +1,10 @@
 import React from 'react';
 import Back from '../../components/Back';
+import Stepper from '../../components/Stepper';
+import CurseDate from '../CurseDate';
+import Reporter from '../Reporter';
+import PesonalDate from '../PesonalDate';
+import Documents from '../Documents';
 import './style.scss';
 
 const Report = () => {

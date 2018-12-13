@@ -59,7 +59,7 @@ const Course = () => {
                 <td>xxxx</td>
                 <td>xxxx</td>
                 <td>
-                  <Submit />
+                 
                 </td>
               </tr>
               <tr>
@@ -71,7 +71,7 @@ const Course = () => {
                 <td>xxxx</td>
                 <td>xxxx</td>
                 <td>
-                  <Submit />
+                  
                 </td>
               </tr>
               <tr>
@@ -83,7 +83,7 @@ const Course = () => {
                 <td>xxxx</td>
                 <td>xxxx</td>
                 <td>
-                  <Submit />
+                  
                 </td>
               </tr>
               <tr>
@@ -95,7 +95,7 @@ const Course = () => {
                 <td>xxxx</td>
                 <td>xxxx</td>
                 <td>
-                  <Submit />
+                  
                 </td>
               </tr>
               <tr>
@@ -107,7 +107,7 @@ const Course = () => {
                 <td>xxxx</td>
                 <td>xxxx</td>
                 <td>
-                  <Submit />
+                  
                 </td>
               </tr>
             </tbody>

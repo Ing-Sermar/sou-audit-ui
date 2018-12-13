@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Steps, Step } from './styles';
+import { Steps, Step } from './style';
 
 const Stepper = ({ step, steps }) => (
   <Steps>
