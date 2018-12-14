@@ -9,14 +9,13 @@ import Retained from '../../pages/Retained';
 import Email from '../../pages/Email';
 import Process from '../../pages/Process';
 import OperationalProcess from '../../pages/OperationalProcess';
-import CurseDate from '../../pages/CurseDate';
-import Reporter from '../../pages/Reporter';
+import CourseDate from '../../pages/CourseDate';
+import Report from '../../pages/Report';
 import Documents from '../../pages/Documents';
-import PesonalDate from '../../pages/PesonalDate';
+import PersonalData from '../../pages/PersonalData';
 
 import Main from './styles';
 import Avaliations from '../../assets/imgs/avaliacoes.svg';
-import PersonalData from '../../pages/PesonalDate';
 
 const links = [
   {
@@ -77,10 +76,10 @@ const Content = () => (
                   path={`/operationalprocess`}
                   component={OperationalProcess}
                 />
-                <Route path={`/cursedate`} component={CurseDate} />
-                <Route path={`/reporter`} component={Reporter} />
+                <Route path={`/coursedate`} component={CourseDate} />
+                <Route path={`/report`} component={Report} />
                 <Route path={`/documents`} component={Documents} />
-                <Route path={`/pesonaldate`} component={PesonalDate} />
+                <Route path={`/personaldata`} component={PersonalData} />
               </Fragment>
             )}
           />
