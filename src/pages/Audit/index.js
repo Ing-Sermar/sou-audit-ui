@@ -14,7 +14,7 @@ const Audit = () => {
               <div className="text-center">
                 <form action="fs" method="post">
                   <div class="submit-line">
-                    <input type="text" />
+                    <input placeholder="Pesquise curso" type="text" />
                     <button class="submit-lente" type="submit">
                       <i class="fa fa-search" />
                     </button>
@@ -28,7 +28,6 @@ const Audit = () => {
               <tr>
                 <th scope="col">Nome do Curso</th>
                 <th scope="col">Turma de Oferta</th>
-                <th scope="col">Matriz do Curso</th>
                 <th scope="col">Descrição do Curso</th>
               </tr>
             </thead>
@@ -37,17 +36,9 @@ const Audit = () => {
                 <td>Engenharia de Produção</td>
                 <td>xxxx</td>
                 <td>xxxx</td>
-                <td>xxxx</td>
               </tr>
               <tr>
                 <td>Engenharia de Produção</td>
-                <td>xxxx</td>
-                <td>xxxx</td>
-                <td>xxxx</td>
-              </tr>
-              <tr>
-                <td>Engenharia de Produção</td>
-                <td>xxxx</td>
                 <td>xxxx</td>
                 <td>xxxx</td>
               </tr>
@@ -55,11 +46,14 @@ const Audit = () => {
                 <td>Engenharia de Produção</td>
                 <td>xxxx</td>
                 <td>xxxx</td>
-                <td>xxxx</td>
               </tr>
               <tr>
                 <td>Engenharia de Produção</td>
                 <td>xxxx</td>
+                <td>xxxx</td>
+              </tr>
+              <tr>
+                <td>Engenharia de Produção</td>
                 <td>xxxx</td>
                 <td>xxxx</td>
               </tr>

@@ -455,33 +455,11 @@ const CurseDate = () => {
             Não
           </label>
         </div>
-        <p className="titulo-3" />
-        <div className="form-check">
-          <input
-            className="form-check-input"
-            type="checkbox"
-            value=""
-            id="defaultCheck1"
-          />
-          <label className="form-check-label" forHTML="Yes">
-            Termo de Compromisso
-          </label>
-        </div>
-        <div className="form-check checarForm-2">
-          <input
-            className="form-check-input"
-            type="checkbox"
-            value=""
-            id="defaultCheck1"
-          />
-          <label className="form-check-label" forHTML="No">
-            Plano de Atividades
-          </label>
-        </div>
+
         <p className="linhaForm" />
         <hr />
         <p className="linhaForm" />
-        <span className="titulo-2">Texto de Identidade</span>
+        <span className="subtitulo">Texto do Enade</span>
         <p className="fontConteudo">
           Univesp não precisa da ENADE etc. Lorem ipsum dolor sit amet,
           consectetur adipiscing elit. Donec ornare lorem malesuada sagittis

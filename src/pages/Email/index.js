@@ -5,7 +5,7 @@ import './style.scss';
 const Mail = () => {
   return (
     <div>
-      <div className="container">
+      {/* <div className="container">
         <h2 className="title">Nome do Curso</h2>
         <fieldset>
           <span>Enviando Mensagem para :</span>
@@ -42,7 +42,7 @@ const Mail = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

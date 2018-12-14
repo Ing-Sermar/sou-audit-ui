@@ -11,7 +11,7 @@ const Course = () => {
     <div>
       <div className="container">
         <h2 className="title">Nome do Curso</h2>
-        <fieldset>
+        {/* <fieldset>
           <nav id="menu">
             <ul>
               <li>
@@ -59,7 +59,7 @@ const Course = () => {
                 <td>xxxx</td>
                 <td>xxxx</td>
                 <td>
-                 
+
                 </td>
               </tr>
               <tr>
@@ -71,7 +71,7 @@ const Course = () => {
                 <td>xxxx</td>
                 <td>xxxx</td>
                 <td>
-                  
+
                 </td>
               </tr>
               <tr>
@@ -83,7 +83,7 @@ const Course = () => {
                 <td>xxxx</td>
                 <td>xxxx</td>
                 <td>
-                  
+
                 </td>
               </tr>
               <tr>
@@ -95,7 +95,7 @@ const Course = () => {
                 <td>xxxx</td>
                 <td>xxxx</td>
                 <td>
-                  
+
                 </td>
               </tr>
               <tr>
@@ -107,13 +107,13 @@ const Course = () => {
                 <td>xxxx</td>
                 <td>xxxx</td>
                 <td>
-                  
+
                 </td>
               </tr>
             </tbody>
           </table>
         </fieldset>
-        <br />
+        <br /> */}
 
         <fieldset>
           <Menu />
@@ -123,9 +123,9 @@ const Course = () => {
             <div className="col-md-5">
               <Search />
             </div>
-            <div className="col-md-7">
+            {/* <div className="col-md-7">
               <div className="right" /> <Dowloand />
-            </div>
+            </div> */}
           </div>
           <table className="table table-hover borda-tabela-titulos table2">
             <thead>
