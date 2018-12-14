@@ -7,6 +7,8 @@ const Steps = styled.ul`
   list-style-type: none;
   flex-flow: row wrap;
   justify-content: space-evenly;
+  margin-top: 25px;
+  margin-bottom: 25px;
 `;
 
 const Step = styled.li`

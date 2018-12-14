@@ -1,16 +1,35 @@
 import React from 'react';
 import Back from '../../components/Back';
 import Stepper from '../../components/Stepper';
-import CurseDate from '../CurseDate';
-import Reporter from '../Reporter';
-import PesonalDate from '../PesonalDate';
+import CourseDate from '../CourseDate';
+import PersonalData from '../PersonalData';
 import Documents from '../Documents';
 import './style.scss';
+
+const stepper = [
+  {
+    name: 'Dados pessoais',
+    icon: ''
+  },
+  {
+    name: 'Documentos',
+    icon: ''
+  },
+  {
+    name: 'Dados do curso',
+    icon: ''
+  },
+  {
+    name: 'Relatório',
+    icon: ''
+  }
+];
 
 const Report = () => {
   return (
     <div>
       <div className="container">
+        <Stepper steps={stepper} step={3} />
         <hr />
         <h5 className="titulo-1">Dados Pessoais</h5>
         <div className="col-md-6 formColunas">
@@ -18,7 +37,7 @@ const Report = () => {
             Nome Civil <span className="fontConteudo">Pedro Souza</span>
           </p>
           <p className="fontTitulo">
-            Nome Social{' '}
+            Nome Social
             <span className="fontConteudo">Não existe nome social</span>
           </p>
           <p className="fontTitulo">
@@ -86,12 +105,9 @@ const Report = () => {
         <div className="formConteudo fontConteudo" />
         Resultado: RETIDO
         <div className="formConteudo" />
-        <div className="row">
-          <div className="col-sm-12 col-md-12">
-            <div className=" float-right">
-              <Back />
-            </div>
-          </div>
+        <div className="row botoesForm">
+          <button className="voltar">VOLTAR</button>
+          <button className="finalizar">Finalizar</button>
         </div>
         <div className="formConteudo" />
       </div>

@@ -1,11 +1,31 @@
 import React from 'react';
-import Back from '../../components/Back';
 import './style.scss';
+import Stepper from '../../components/Stepper';
+
+const stepper = [
+  {
+    name: 'Dados pessoais',
+    icon: ''
+  },
+  {
+    name: 'Documentos',
+    icon: ''
+  },
+  {
+    name: 'Dados do curso',
+    icon: ''
+  },
+  {
+    name: 'Relatório',
+    icon: ''
+  }
+];
 
 const CurseDate = () => {
   return (
     <div>
       <div className="container">
+        <Stepper steps={stepper} step={2} />
         <hr />
         <h5 className="titulo-1">Dados Pessoais</h5>
 
@@ -478,12 +498,9 @@ const CurseDate = () => {
           - portaria dizendo ele foi dispensado
           <br />
         </p>
-        <div className="row">
-          <div className="col-sm-12 col-md-12">
-            <div className=" float-right">
-              <Back />
-            </div>
-          </div>
+        <div className="row botoesForm">
+          <button className="voltar">VOLTAR</button>
+          <button className="finalizar">PRÓXIMA</button>
         </div>
         <p className="linhaForm" />
       </div>

@@ -1,10 +1,35 @@
 import React from 'react';
 import './style.scss';
+import Stepper from '../../components/Stepper';
+import Personal from '../../assets/imgs/dadospessoais.svg';
+import Course from '../../assets/imgs/dadosdocurso.svg';
+import Document from '../../assets/imgs/documentos.svg';
+import Reports from '../../assets/imgs/relatorio.svg';
+
+const stepper = [
+  {
+    name: 'Dados pessoais',
+    icon: 'Personal'
+  },
+  {
+    name: 'Documentos',
+    icon: 'Document'
+  },
+  {
+    name: 'Dados do curso',
+    icon: 'Course'
+  },
+  {
+    name: 'Relatório',
+    icon: 'Reports'
+  }
+];
 
 const Documents = () => {
   return (
     <div>
       <div className="container">
+        <Stepper steps={stepper} step={1} />
         <hr />
         <h5 className="titulo-1">Dados Pessoais</h5>
 
@@ -228,26 +253,5 @@ const Documents = () => {
     </div>
   );
 };
-
-function itemSelect(elem) {
-  /*var si = $(elem).val();/*
-	var isCheck = $(elem).is(':checked');
-
-		if(isCheck) {'
-			fadeIn($(elem).siblings());
-		} else {
-			fadeOut($(elem).siblings());
-		}
-	}
-
-	function fadeIn(itemClass, itemId) {
-		$(itemClass).fadeIn();
-		$(itemId).addClass('borda');
-	}
-
-	function fadeOut(itemClass, itemId) {
-		$(itemClass).fadeOut();
-		$(itemId).removeClass('borda');*/
-}
 
 export default Documents;
