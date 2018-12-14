@@ -2,7 +2,7 @@ import React from 'react';
 import user from '../../assets/imgs/user.jpg';
 import BtnEmail from '../../components/BtnEmail';
 import Search from '../../components/Search';
-import Dowloand from '../../components/Dowloand';
+// import Dowloand from '../../components/Dowloand';
 import Menu from '../../components/Menu';
 
 const Process = () => {
@@ -19,9 +19,9 @@ const Process = () => {
             <div className="col-md-5">
               <Search />
             </div>
-            <div className="col-md-7">
+            {/* <div className="col-md-7">
               <div className="right" /> <Dowloand />
-            </div>
+            </div> */}
           </div>
           <table className="table table-hover borda-tabela-titulos table2">
             <thead>
@@ -40,7 +40,9 @@ const Process = () => {
                 <th scope="col" />
               </tr>
             </thead>
-            <tbody />
+            <tbody>
+              <p>Você ainda não possui nenhum processo atribuido.</p>
+            </tbody>
           </table>
         </fieldset>
         <div className="row">

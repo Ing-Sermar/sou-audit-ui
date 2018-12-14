@@ -83,17 +83,7 @@ const Documents = () => {
           </label>
         </div>
         <p className="titulo-3">Teve Bonificação no ingresso do curso:</p>
-        <div className="form-check checarForm">
-          <input
-            className="form-check-input"
-            type="checkbox"
-            value=""
-            id="defaultCheck1"
-          />
-          <label className="form-check-label" forHTML="No">
-            Não
-          </label>
-        </div>
+
         <div className="form-check checarForm-1">
           <input
             className="form-check-input"
@@ -164,7 +154,7 @@ const Documents = () => {
             id="defaultCheck1"
           />
           <label className="form-check-label" forHTML="Yes">
-            Sim
+            Polo
           </label>
         </div>
         <div className="form-check checarForm-1">
@@ -175,7 +165,7 @@ const Documents = () => {
             id="defaultCheck1"
           />
           <label className="form-check-label" forHTML="No">
-            Não
+            Cartório
           </label>
         </div>
         <p className="titulo-3">Histórico de Ensino Médio</p>
@@ -187,7 +177,7 @@ const Documents = () => {
             id="defaultCheck1"
           />
           <label className="form-check-label" forHTML="Yes">
-            Sim
+            Polo
           </label>
         </div>
         <div className="form-check checarForm-1">
@@ -198,10 +188,10 @@ const Documents = () => {
             id="defaultCheck1"
           />
           <label className="form-check-label" forHTML="No">
-            Não
+            Cartório
           </label>
         </div>
-        <p className="titulo-3">Certificado ce Conclusão do Ensino Médio</p>
+        <p className="titulo-3">Certificado de Conclusão do Ensino Médio</p>
         <div className="form-check checarForm">
           <input
             className="form-check-input"
@@ -210,7 +200,7 @@ const Documents = () => {
             id="defaultCheck1"
           />
           <label className="form-check-label" forHTML="Yes">
-            Sim
+            Polo
           </label>
         </div>
         <div className="form-check checarForm-1">
@@ -221,7 +211,7 @@ const Documents = () => {
             id="defaultCheck1"
           />
           <label className="form-check-label" forHTML="No">
-            Não
+            Cartório
           </label>
         </div>
         <p className="linhasConteudo" />
